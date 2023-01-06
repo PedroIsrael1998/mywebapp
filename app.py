@@ -4,6 +4,7 @@ import plotly.express as px
 df = px.data.gapminder()
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div(
     [
