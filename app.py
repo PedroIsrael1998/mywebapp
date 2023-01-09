@@ -5,11 +5,11 @@ import pandas as pd
 import dash
 from dash import Dash,dcc, html, callback, Output, Input
 import dash_bootstrap_components as dbc                       
-import dash_mantine_components as dmc
+# import dash_mantine_components as dmc
 
 # plotly express:
 import plotly.express as px
-import plotly.graph_objects as go
+# import plotly.graph_objects as go
 
 # ------------------
 # 1.2 Create the app
